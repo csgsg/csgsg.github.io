@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UVa CSGSG</title>
-    <link>http://csgsg.github.io/</link>
+    <link>//csgsg.org/</link>
     <description>Recent content on UVa CSGSG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Feb 2018 17:56:50 -0500</lastBuildDate>
     
-	<atom:link href="http://csgsg.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//csgsg.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Students</title>
-      <link>http://csgsg.github.io/students/</link>
+      <link>//csgsg.org/students/</link>
       <pubDate>Fri, 09 Feb 2018 17:56:50 -0500</pubDate>
       
-      <guid>http://csgsg.github.io/students/</guid>
+      <guid>//csgsg.org/students/</guid>
       <description>Please fill the form here if you want to update your information.</description>
     </item>
     
     <item>
       <title>The Graduate Student Lounge</title>
-      <link>http://csgsg.github.io/lounge/</link>
+      <link>//csgsg.org/lounge/</link>
       <pubDate>Tue, 23 Jan 2018 12:36:21 -0500</pubDate>
       
-      <guid>http://csgsg.github.io/lounge/</guid>
+      <guid>//csgsg.org/lounge/</guid>
       <description>The Graduate Student Lounge is room Rice 536, which is reserved from Wed though Friday from 12PM to 2PM every week. Feel free to use this space when taking a break from the gruelling working hours of the day. Have lunch with your friends (real or imaginary), hold philosophical discussion (&amp;ldquo;What is meaning of life?&amp;rdquo;), or try and find zen (if you believe it exists).
 Location: Rice 536
 Days: Wednesday, Thursday, and Friday (every week)</description>
@@ -33,10 +33,10 @@ Days: Wednesday, Thursday, and Friday (every week)</description>
     
     <item>
       <title>UVa CS Tea Time</title>
-      <link>http://csgsg.github.io/teatime/</link>
+      <link>//csgsg.org/teatime/</link>
       <pubDate>Tue, 23 Jan 2018 09:56:32 -0500</pubDate>
       
-      <guid>http://csgsg.github.io/teatime/</guid>
+      <guid>//csgsg.org/teatime/</guid>
       <description>©Tango   Tea time is a great chance to talk with other people in the department! We offer free food and drink every week. Please consider hosting tea time if you enjoy the event.
 Schedule The tea time schedule is available on the front page: http://csgsg.org.
 How to host tea time  Please contact Tea Time Czar if you volunteer to host tea time. You may order food and drinks by phone, the Internet or visiting the restaurants/stores in advance.</description>
@@ -44,20 +44,20 @@ How to host tea time  Please contact Tea Time Czar if you volunteer to host tea 
     
     <item>
       <title>About CSGSG</title>
-      <link>http://csgsg.github.io/about/</link>
+      <link>//csgsg.org/about/</link>
       <pubDate>Mon, 22 Jan 2018 23:00:52 -0500</pubDate>
       
-      <guid>http://csgsg.github.io/about/</guid>
+      <guid>//csgsg.org/about/</guid>
       <description>The CSGSG serves as the assembly of all graduate students in the Department of Computer Science at the University of Virginia. All graduate students, Master’s and PhD, within the department of computer science or in the computer engineering program are automatically members of the CSGSG.
 What we do? The goals of the CSGSG are to represent the CS/CPE graduate student body as well as serve as a mechanism for students to organize events including orientations, tea time, reading groups, and external events like hiking and picnics.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://csgsg.github.io/posts/my-first-post/</link>
+      <link>//csgsg.org/posts/my-first-post/</link>
       <pubDate>Mon, 22 Jan 2018 17:19:54 -0500</pubDate>
       
-      <guid>http://csgsg.github.io/posts/my-first-post/</guid>
+      <guid>//csgsg.org/posts/my-first-post/</guid>
       <description>Write something here.</description>
     </item>
     

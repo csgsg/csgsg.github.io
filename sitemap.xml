@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://csgsg.github.io/students/</loc>
+    <loc>//csgsg.org/students/</loc>
     <lastmod>2018-02-09T17:56:50-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/lounge/</loc>
+    <loc>//csgsg.org/lounge/</loc>
     <lastmod>2018-01-23T12:36:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/teatime/</loc>
+    <loc>//csgsg.org/teatime/</loc>
     <lastmod>2018-01-23T09:56:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/about/</loc>
+    <loc>//csgsg.org/about/</loc>
     <lastmod>2018-01-22T23:00:52-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/posts/my-first-post/</loc>
+    <loc>//csgsg.org/posts/my-first-post/</loc>
     <lastmod>2018-01-22T17:19:54-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/categories/</loc>
+    <loc>//csgsg.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/posts/</loc>
+    <loc>//csgsg.org/posts/</loc>
     <lastmod>2018-01-22T17:19:54-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/tags/</loc>
+    <loc>//csgsg.org/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://csgsg.github.io/</loc>
+    <loc>//csgsg.org/</loc>
     <lastmod>2018-02-09T17:56:50-05:00</lastmod>
     <priority>0</priority>
   </url>
