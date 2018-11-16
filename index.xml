@@ -6,10 +6,21 @@
     <description>Recent content on UVa CSGSG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Feb 2018 17:56:50 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 16 Nov 2018 09:56:32 -0500</lastBuildDate>
     
 	<atom:link href="//csgsg.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSGSG 2018 Election</title>
+      <link>//csgsg.org/election/</link>
+      <pubDate>Fri, 16 Nov 2018 09:56:32 -0500</pubDate>
+      
+      <guid>//csgsg.org/election/</guid>
+      <description>We have started the CS Graduate Student Group Steering Committee (CSGSGSC) 2018 election!
+Candidate Nomination Any member of the CSGSG is eligible for nomination to CSGSGSC, provided he/she receives at least one nomination from either a member of the CSGSG (may be the nominee her/himself) or faculty from the Department of Computer Science. If that member accepts nomination, she/he will be placed on the ballot.
+The nomination of this year is due by 11:59pm (ET) Monday, November 19, 2018.</description>
+    </item>
     
     <item>
       <title>Students</title>
