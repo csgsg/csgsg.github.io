@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UVa CSGSG</title>
@@ -6,7 +6,7 @@
     <description>Recent content on UVa CSGSG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Nov 2018 09:56:32 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 17:19:54 -0500</lastBuildDate>
     
 	<atom:link href="//csgsg.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,7 +19,28 @@
       <guid>//csgsg.org/election/</guid>
       <description>We have started the CS Graduate Student Group Steering Committee (CSGSGSC) 2018 election! Look forward to a new group of officers serving our community soon.
 Voting We have started voting on December 4, 2018 till 11:59pm Friday, 12/07/2018.
-Click to vote   Election Campaign      Candidate Nomination Any member of the CSGSG is eligible for nomination to CSGSGSC, provided he/she receives at least one nomination from either a member of the CSGSG (may be the nominee her/himself) or faculty from the Department of Computer Science.</description>
+Election Campaign Candidate Nomination Any member of the CSGSG is eligible for nomination to CSGSGSC, provided he/she receives at least one nomination from either a member of the CSGSG (may be the nominee her/himself) or faculty from the Department of Computer Science.</description>
+    </item>
+    
+    <item>
+      <title>Helpful Information</title>
+      <link>//csgsg.org/information/</link>
+      <pubDate>Tue, 23 Jan 2018 12:36:21 -0500</pubDate>
+      
+      <guid>//csgsg.org/information/</guid>
+      <description>Apartment Listing Guide Student talks are 5 minutes with 5 minutes for questions, submitting speaker reviews and transitioning to the next speaker. Faculty talks will be 20-25 minutes with the remaining time left for questions.
+ Study Places More text
+ &amp;ldquo;Must See&amp;rdquo; Charlottesville Spots ttext
+ Outdoor / Hiking Locations Other text</description>
+    </item>
+    
+    <item>
+      <title>Resources &amp; Web Links</title>
+      <link>//csgsg.org/resources/</link>
+      <pubDate>Tue, 23 Jan 2018 12:36:21 -0500</pubDate>
+      
+      <guid>//csgsg.org/resources/</guid>
+      <description>Zoom Link: https://virginia.zoom.us/j/92206525927</description>
     </item>
     
     <item>
@@ -41,7 +62,7 @@ As a result of the pandemic, CSGSG is hosting a CS Department Virtual Research S
       <pubDate>Tue, 23 Jan 2018 12:36:21 -0500</pubDate>
       
       <guid>//csgsg.org/sympbios/</guid>
-      <description>Wenqiang Chen degree: PhD Year: 1st Advisor: John Stankovic Bio: Wenqiang Chen is a first year CS PhD student at the University of Virginia, under supervised by John Stankovic . He previously received his B.S. and M.S. in Computer Science from Shenzhen University. He is interested in vibration intelligence, cyber physical system. In his free time, he enjoys watching science fictions. Category: Cyber-Physical Systems Keywords: vibration intelligence Project Title: Vibration Intelligence in Cyber-Physical systems</description>
+      <description>Wenqiang Chen degree: PhD Year: 1st Advisor: John Stankovic Bio: Wenqiang Chen is a first year CS PhD student at the University of Virginia, under supervised by John Stankovic . He previously received his B.S. and M.S. in Computer Science from Shenzhen University. He is interested in vibration intelligence, cyber physical system. In his free time, he enjoys watching science fictions. Category: Cyber-Physical Systems Keywords: vibration intelligence Project Title: Vibration Intelligence in Cyber-Physical systems Project Description: All human activity causes vibration.</description>
     </item>
     
     <item>
@@ -50,7 +71,7 @@ As a result of the pandemic, CSGSG is hosting a CS Department Virtual Research S
       <pubDate>Tue, 23 Jan 2018 12:36:21 -0500</pubDate>
       
       <guid>//csgsg.org/lounge/</guid>
-      <description>The CS Graduate Student Lounge is room Rice 436. Feel free to use this space when taking a break from the gruelling working hours of the day. Have lunch with your friends (real or imaginary), hold philosophical discussion (&amp;ldquo;What is meaning of life?&amp;rdquo;), or try and find zen (if you believe it exists).
+      <description>The CS Graduate Student Lounge is room Rice 436. Feel free to use this space when taking a break from the gruelling working hours of the day. Have lunch with your friends (real or imaginary), hold philosophical discussion (&amp;ldquo;What is meaning of life?&amp;quot;), or try and find zen (if you believe it exists).
 Location: Rice 436
 P.S. If you have any cool ideas of how to make the lounge more comfortable (like adding board games etc.</description>
     </item>
@@ -61,7 +82,7 @@ P.S. If you have any cool ideas of how to make the lounge more comfortable (like
       <pubDate>Tue, 23 Jan 2018 09:56:32 -0500</pubDate>
       
       <guid>//csgsg.org/teatime/</guid>
-      <description>©Tango   Tea time is a great chance to talk with other people in the department! We offer free food and drink every week. Please consider hosting tea time if you enjoy the event.
+      <description>Tea time is a great chance to talk with other people in the department! We offer free food and drink every week. Please consider hosting tea time if you enjoy the event.
 Schedule The tea time schedule is available on the front page: https://csgsg.org.
 How to host tea time  Please contact TeaTime Czar if you volunteer to host tea time. You may order food and drinks by phone, on the Internet or visiting the restaurants/stores in advance.</description>
     </item>
