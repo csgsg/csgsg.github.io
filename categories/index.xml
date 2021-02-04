@@ -5,10 +5,6 @@
     <link>//csgsg.org/categories/</link>
     <description>Recent content in Categories on UVa CSGSG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="//csgsg.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="//csgsg.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
