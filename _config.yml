@@ -21,8 +21,8 @@ email      : csgsg@virginia.edu #this is also the email contact forms will go to
 description: "CSGSG is dedicated to serving the Computer Science & Computer Engineering Graduate Student Community since 2018"
 author     : Originally Created by Steven Lamp 2024
 logo:     #optional, defaults to site title
-path: assets\img\CSGSG_ASCII.png
-#height: 60 #height in px, defaults to 52px
+  path: assets\img\CSGSG_ASCII.png
+  height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 

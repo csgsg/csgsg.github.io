@@ -71,13 +71,13 @@ en: &DEFAULT_EN
   about:
     title: "About CSGSG"
 
-    text: "Our Purpose"
-    body: "The CSGSG serves as the assembly of all graduate students in the Department of Computer Science at the University of Virginia. 
+    text1: "Our Purpose"
+    body1: "The CSGSG serves as the assembly of all graduate students in the Department of Computer Science at the University of Virginia. 
            All graduate students, Master’s and PhD, within the department of computer science or in the computer engineering program 
            are automatically members of the CSGSG."
 
-    text: "Our Goals"
-    body: "The goals of the CSGSG are to represent the CS/CPE 
+    text2: "Our Goals"
+    body2: "The goals of the CSGSG are to represent the CS/CPE 
            graduate student body as well as serve as a mechanism for students to organize events including orientations, 
            tea time, reading groups, and external events like hiking and picnics. It has allowed graduate students to 
            have a say in everything from our cubicle furniture and the price of printing (free) to qualification exams, 
