@@ -150,7 +150,7 @@ en: &DEFAULT_EN
 
       - name: "Dane Williamson"
         role: "Diversity Representitive"
-        image: assets/img/team/williamson_dane.printing
+        image: assets/img/team/williamson_dane.png
         social:
           - url: mailto:dw3zn@virginia.edu
             icon: fas fa-envelope
@@ -218,7 +218,7 @@ en: &DEFAULT_EN
 
       - name: "Sebastian Elbaum"
         role: "Omsbudsperson"
-        image: assets/img/team/elbaum_sebastian.png
+        image: assets/img/team/elbaumn_sebastian.png
         social:
           - url: mailto:selbaum@virginia.edu
             icon: fas fa-envelope
