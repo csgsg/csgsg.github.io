@@ -131,7 +131,7 @@ en: &DEFAULT_EN
             icon: fas fa-envelope
     
       - name: "Steven Lamp"
-        role: "CS Graduate Student Representitive"
+        role: "CS Graduate Student Representative"
         image: assets/img/team/lamp_steven.png
         social:
           - url: mailto:vxn3kr@virginia.edu
@@ -142,14 +142,14 @@ en: &DEFAULT_EN
             icon: fa fa-globe
 
       - name: "Akhil Shekar"
-        role: "CPE Graduate Student Representitive"
+        role: "CPE Graduate Student Representative"
         image: assets/img/team/500x500.jpg
         social:
           - url: mailto:as8hu@virginia.edu
             icon: fas fa-envelope
 
       - name: "Dane Williamson"
-        role: "Diversity Representitive"
+        role: "Diversity Chair"
         image: assets/img/team/williamson_dane.png
         social:
           - url: mailto:dw3zn@virginia.edu
