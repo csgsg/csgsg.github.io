@@ -206,6 +206,17 @@ en: &DEFAULT_EN
           - url: mailto:cbr8ru@virginia.edu
             icon: fas fa-envelope
 
+      - name: "Oishee Hoque"
+        role: "Social Co-Chair"
+        image: assets/img/team/hoque_oishee.png
+        social:
+          - url: mailto:gza5dr@virginia.edu
+            icon: fas fa-envelope
+          - url: https://www.linkedin.com/in/oishee-hoque/"target="_blank
+            icon: fab fa-linkedin
+          - url: https://oishee-hoque.github.io/"target="_blank
+            icon: fa fa-globe
+
 ### FACULTY #####################################
 #Probably don't change this
 
