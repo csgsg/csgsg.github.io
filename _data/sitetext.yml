@@ -143,10 +143,12 @@ en: &DEFAULT_EN
 
       - name: "Akhil Shekar"
         role: "CPE Graduate Student Representative"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/shekar_akhil.png
         social:
           - url: mailto:as8hu@virginia.edu
             icon: fas fa-envelope
+          - url:  https://www.linkedin.com/in/akhil-shekar-a049ba70/"target="_blank
+            icon: fab fa-linkedin
 
       - name: "Dane Williamson"
         role: "Diversity Chair"

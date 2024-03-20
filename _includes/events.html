@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Evo Calendar with Google Calendar Events</title>
+      <!-- Add the evo-calendar.css for styling -->
+      <link href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/css/evo-calendar.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/css/evo-calendar.midnight-blue.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/css/evo-calendar.royal-navy.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/css/evo-calendar.orange-coral.css" rel="stylesheet">
+  </head>
+
+
+
+  <body>
+
+    <div id="evoCalendar"></div>
+
+    <!-- Include jQuery first -->
+    <script src=" https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+
+    <!-- Then include Evo Calendar JS -->
+    <script src=" https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/js/evo-calendar.min.js "></script>
+
+    <!-- GCAL API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+
+
+    <script>
+      $.noConflict();
+      jQuery(document).ready(function($) {
+        console.log("INITALIZE SCRIPT")
+        //$('#evoCalendar').evoCalendar({
+        //      theme: 'Royal Navy', // Set theme
+        //      calendarEvents: []// Initially empty, we'll add events here
+        //});
+
+      
+        // Function to add events to Evo Calendar
+        //function addEventsToEvoCalendar(events) {
+        //  $('#evoCalendar').evoCalendar('addCalendarEvent', events);
+        //}
+        const today = new Date();
+        today.setHours(0, 0, 0, 0); 
+        console.log(today)
+        // Fetch events from Google Calendar and add to Evo Calendar
+        
+        const calendarId = 'virginia.edu_4oqmn9qd28qk2beslk1u9jros4@group.calendar.google.com'; // Replace with your Calendar ID
+        const apiKey = 'AIzaSyDL8Rpzq58NR9GdhJAi2WdlsIQH4c05IBE'; // Replace with your API key
+        const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(calendarId)}/events?key=${apiKey}`;
+        
+        let globalEvents = [];
+
+        $.get(url, function(data) {
+          const events = data.items
+            .filter(item => {
+              // Get the event start date, considering both dateTime and date properties
+              try{
+                //console.log(item.start.dateTime)
+                const eventStartDate = item.start.dateTime ? new Date(item.start.dateTime) : new Date(item.start.date);
+                return eventStartDate >= today; // Filter events happening today or in the future
+              }catch(error){
+                //console.error(error)
+              }
+            })
+            .map(item => ({
+                 id: item.id,
+                 name: item.summary,
+                 description: item.description || '',
+                 date: item.start.dateTime || item.start.date, // Use start.dateTime for specific times, or start.date for all-day events
+                 type: "CSGSG Social Event"
+            }));
+            console.log("EVENTS", events);//$('#evoCalendar').evoCalendar('addCalendarEvent', events);
+            $('#evoCalendar').evoCalendar({
+              theme: 'Orange Coral',
+              calendarEvents: events// Initially empty, we'll add events here
+            });
+
+            
+        });
+      
+
+      });
+    </script>
+
+
+  </body>
+</html>
+
+
+
+
