@@ -69,9 +69,25 @@
                  name: item.summary,
                  description: item.description || '',
                  date: item.start.dateTime || item.start.date, // Use start.dateTime for specific times, or start.date for all-day events
+                 enddate: item.end.dateTime, //use
+                 location: item.location,
+                 //description: item.start.dateTime+"-"+item.end.dateTime+": "+item.location,
                  type: "CSGSG Social Event"
             }));
-            console.log("EVENTS", events);//$('#evoCalendar').evoCalendar('addCalendarEvent', events);
+            //console.log("EVENTS", events);//$('#evoCalendar').evoCalendar('addCalendarEvent', events);
+            var startTime = new Date(events[0].date).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
+            var endTime = new Date(events[0].enddate).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
+            //console.log(startTime, endTime)
+
+
+            if (startTime != endTime){
+              events[0].description = startTime + "-" + endTime + " @ " + events[0].location;
+            }else{
+              events[0].description = startTime + " @ " + events[0].location;
+            } 
+
+            //events[0].description = startTime;
+            //console.log(events[0].description)
             $('#evoCalendar').evoCalendar({
               theme: 'Orange Coral',
               calendarEvents: events// Initially empty, we'll add events here
