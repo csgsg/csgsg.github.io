@@ -112,7 +112,7 @@ en: &DEFAULT_EN
 
   team:
     title: "CSGSG 2024 Committee"
-    text: "Year of the Dragon"
+    text: "Computer Science & Engineering Graduate Student Group"
     subtext: 
     section: team
     people:
