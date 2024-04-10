@@ -103,7 +103,7 @@
     <script>
       $.noConflict();
       jQuery(document).ready(function($) {
-        console.log("INITALIZE SCRIPT")
+        //console.log("INITALIZE SCRIPT")
         //$('#evoCalendar').evoCalendar({
         //      theme: 'Royal Navy', // Set theme
         //      calendarEvents: []// Initially empty, we'll add events here
@@ -115,8 +115,10 @@
         //  $('#evoCalendar').evoCalendar('addCalendarEvent', events);
         //}
         const today = new Date();
-        today.setHours(0, 0, 0, 0); 
-        console.log(today)
+        today.setHours(0, 0, 0, 0);
+        today.setMonth(0); // January is 0 in JavaScript Date
+        today.setDate(1); // Set to the first day of the month 
+        //console.log(today)
         // Fetch events from Google Calendar and add to Evo Calendar
         
         const calendarId = 'virginia.edu_4oqmn9qd28qk2beslk1u9jros4@group.calendar.google.com'; // Replace with your Calendar ID
@@ -140,7 +142,7 @@
             .map(item => ({
                  id: item.id,
                  name: item.summary,
-                 description: item.description || '',
+                 description: item.description, //|| '',
                  date: item.start.dateTime || item.start.date, // Use start.dateTime for specific times, or start.date for all-day events
                  enddate: item.end.dateTime, //use
                  location: item.location,
@@ -148,16 +150,21 @@
                  type: "CSGSG Social Event"
             }));
             //console.log("EVENTS", events);//$('#evoCalendar').evoCalendar('addCalendarEvent', events);
-            var startTime = new Date(events[0].date).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
-            var endTime = new Date(events[0].enddate).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
-            //console.log(startTime, endTime)
+            
+            //what have I become  
+            events.forEach(event => {            
+              var startTime = new Date(event.date).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
+              var endTime = new Date(event.enddate).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
+              //console.log(startTime, endTime)
 
 
-            if (startTime != endTime){
-              events[0].description = startTime + "-" + endTime + " @ " + events[0].location;
-            }else{
-              events[0].description = startTime + " @ " + events[0].location;
-            } 
+              if (startTime != endTime){
+                  event.description = startTime + "-" + endTime + " @ " + event.location;
+              }else{
+                  event.description = startTime + " @ " + event.location;
+              }
+            });
+          
 
             //events[0].description = startTime;
             //console.log(events[0].description)
