@@ -229,11 +229,18 @@ en: &DEFAULT_EN
           - url: mailto:jrhott@virginia.edu
             icon: fas fa-envelope
 
-      - name: "Sebastian Elbaum"
+      - name: "Nada Basit"
         role: "Omsbudsperson"
-        image: assets/img/team/elbaumn_sebastian.png
+        image: assets/img/team/basit_nada.png
         social:
-          - url: mailto:selbaum@virginia.edu
+          - url: mailto:basit@virginia.edu
+            icon: fas fa-envelope
+
+      - name: "David Evans"
+        role: "Omsbudsperson"
+        image: assets/img/team/evans_dave.png
+        social:
+          - url: mailto:evans@virginia.edu
             icon: fas fa-envelope
 #################################################
 
