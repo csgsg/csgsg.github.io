@@ -99,11 +99,8 @@ en: &DEFAULT_EN
 
     text1: "CSGSG Related Links"
     list1: 
-      - title: "UVA Graduate Student Resources"
-        link: "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/cs-current-graduate-students"
-      - title: "CSGSG Student Handbook"
-        link: "https://docs.google.com/document/d/1JfWsY9CaDgaQvM1Ej9gxmMOkji89DpsMog-9pX07LCg/edit?tab=t.0#heading=h.gjdgxs"
-
+      - "UVA Graduate Student Resources: https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/cs-current-graduate-students"
+      - "CSGSG Student Handbook: https://docs.google.com/document/d/1JfWsY9CaDgaQvM1Ej9gxmMOkji89DpsMog-9pX07LCg/edit?tab=t.0#heading=h.gjdgxs"
   clients:
     section: clients
     max-height: 100px
