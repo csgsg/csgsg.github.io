@@ -15,7 +15,7 @@
         <div class="large text-muted">{{ site.data.sitetext[site.locale].resources.list1 | markdownify }}</div>
 
         <div class="large text-muted">
-          {% for item in list1 %}
+          {% for item in site.data.sitetext[site.locale].resources.list1 %}
             <a href="{{ item.link }}">{{ item.title }}</a>
           {% endfor %}
         </div>
