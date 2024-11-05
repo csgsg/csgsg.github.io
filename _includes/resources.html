@@ -14,6 +14,13 @@
         <h3 class="subheading">{{ site.data.sitetext[site.locale].resources.text1| default: "" }}</h3>
         <div class="large text-muted">{{ site.data.sitetext[site.locale].resources.list1 | markdownify }}</div>
 
+        <div class="large text-muted">
+          {% for item in list1 %}
+            <a href="{{ item.link }}">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+
+
         
       </div>
     </div>
