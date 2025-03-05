@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 
-    text: 
+    title:
+    text:
     #button: Tell Me More
     #buttonlink: "#services"
 
@@ -124,95 +124,87 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "CSGSG 2024 Committee"
+    title: "CSGSG 2025 Committee"
     text: "Computer Science & Engineering Graduate Student Group"
-    subtext: 
+    subtext:
     section: team
     people:
-      - name: "Matthew Clark"
-        role: "Co-Chair"
-        image: assets/img/team/clark_matt.png
+      - name: "Sujan Sarker"
+        role: "General Chair"
+        image: assets/img/team/sujan_headshot.jpg
         social:
-          - url: mailto:wdd6ts@virginia.edu
+          - url: mailto:zzr2hs@virginia.edu
             icon: fas fa-envelope
-      
-      - name: "Tonmoy Hossain"
-        role: "Co-Chair"
-        image: assets/img/team/hossain_tonmoy.png
-        social:
-          - url: mailto:pwg7jb@virginia.edu
-            icon: fas fa-envelope
-    
-      - name: "Steven Lamp"
+          - url: https://sujan-sarker.github.io/
+            icon: fas fa-globe
+
+
+      - name: "Saket Upadhyay"
         role: "CS Graduate Student Representative"
-        image: assets/img/team/lamp_steven.png
+        image: assets/img/team/upadhyay_saket.jpg
         social:
-          - url: mailto:vxn3kr@virginia.edu
+          - url: mailto:saket@virginia.edu
             icon: fas fa-envelope
-          - url: www.linkedin.com/in/stevenlamp17/"target="_blank
+          - url: https://www.linkedin.com/in/saketupadhyay/
             icon: fab fa-linkedin
-          - url: https://stevenlamp.com/"target="_blank
+          - url: https://saketupadhyay.com
             icon: fa fa-globe
 
-      - name: "Akhil Shekar"
+      - name: "Emmanuel Ezeuko"
         role: "CPE Graduate Student Representative"
-        image: assets/img/team/shekar_akhil.png
+        image: assets/img/team/ezeuko_emmanuel.JPG
         social:
-          - url: mailto:as8hu@virginia.edu
+          - url: mailto:mzq5fk@virginia.edu
             icon: fas fa-envelope
-          - url:  https://www.linkedin.com/in/akhil-shekar-a049ba70/"target="_blank
+          - url:
             icon: fab fa-linkedin
-
-      - name: "Dane Williamson"
-        role: "Diversity Chair"
-        image: assets/img/team/williamson_dane.png
-        social:
-          - url: mailto:dw3zn@virginia.edu
-            icon: fas fa-envelope
-          - url: https://www.linkedin.com/in/dane-a-williamson/"target="_blank
-            icon: fab fa-linkedin
-
-
-      - name: "Nivetha Jayakumar"
-        role: "Leadership Co-Chair"
-        image: assets/img/team/jayakumar_nivetha.png
-        social:
-          - url: mailto:vfb8zv@virginia.edu
-            icon: fas fa-envelope
-          - url: https://www.linkedin.com/in/nivetha-jayakumar-45471b1b1/"target="_blank
-            icon: fab fa-linkedin
-
-      - name: "Sheharyar Khalid"
-        role: "Leadership Co-Chair"
-        image: assets/img/team/khalid_sheharyar.png
-        social:
-          - url: mailto:sheharyar@virginia.edu
-            icon: fas fa-envelope
-
-      - name: "Muhammad Shoaib"
-        role: "Mentorship Chair"
-        image: assets/img/team/shoaib_muhammed.png
-        social:
-          - url: mailto:mshoaib@virginia.edu
-            icon: fas fa-envelope
-          - url: https://www.linkedin.com/in/mshoaib6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/"target="_blank
-            icon: fab fa-linkedin
-
-      - name: "Shaid Hasan"
-        role: "Social Co-Chair"
-        image: assets/img/team/hasan_shaid.png
-        social:
-          - url: mailto:qmz9mg@virginia.edu
-            icon: fas fa-envelope
-          - url: https://sites.google.com/view/shaid-hasan/"target="_blank
-            icon: fa fa-globe
 
       - name: "Elizabeth Palmieri"
-        role: "Social Co-Chair"
+        role: "Diversity Chair"
         image: assets/img/team/palmieri_elizabeth.png
         social:
           - url: mailto:cxm7ja@virginia.edu
             icon: fas fa-envelope
+
+
+      - name: "Marshall Clyburn"
+        role: "Leadership Co-Chair"
+        image: assets/img/team/Marshall_headshot.jpg
+        social:
+          - url: mailto:marshallc@virginia.edu
+            icon: fas fa-envelope
+
+      - name: "Nibir Chandra Mandal"
+        role: "Leadership Co-Chair"
+        image: assets/img/team/Nibir_headshot.jpg
+        social:
+          - url: mailto:wyr6fx@virginia.edu
+            icon: fas fa-envelope
+          - url: https://www.linkedin.com/in/nibir-chandra-mandal/
+            icon: fab fa-linkedin
+
+
+      - name: "Farzana Yasmin Ahmad"
+        role: "Mentorship Chair"
+        image: assets/img/team/Farzana_headshot.jpeg
+        social:
+          - url: mailto:fa7sa@virginia.edu
+            icon: fas fa-envelope
+          - url: https://www.linkedin.com/in/farzana-yasmin-ahmad-1b2235145/
+            icon: fab fa-linkedin
+
+      - name: "Shreejeet Sahay"
+        role: "Social Co-Chair"
+        image: assets/img/team/Shreejeet_headshot.png
+        social:
+          - url: mailto:rge9ts@virginia.edu
+            icon: fas fa-envelope
+          - url: https://www.linkedin.com/in/shreejeet-sahay/
+            icon: fab fa-linkedin
+          - url: https://shreejeetsahay.github.io/
+            icon: fas fa-globe
+
+
 
       - name: "Maria Cardei"
         role: "Social Co-Chair"
@@ -220,42 +212,44 @@ en: &DEFAULT_EN
         social:
           - url: mailto:cbr8ru@virginia.edu
             icon: fas fa-envelope
-
-      - name: "Oishee Hoque"
-        role: "Social Co-Chair"
-        image: assets/img/team/hoque_oishee.png
-        social:
-          - url: mailto:gza5dr@virginia.edu
-            icon: fas fa-envelope
-          - url: https://www.linkedin.com/in/oishee-hoque/"target="_blank
+          - url: https://www.linkedin.com/in/mariacardei/
             icon: fab fa-linkedin
-          - url: https://oishee-hoque.github.io/"target="_blank
+          - url: https://mariacardei.github.io/
             icon: fa fa-globe
 
-### FACULTY #####################################
-#Probably don't change this
+      - name: "Anders Gyllenhoff"
+        role: "Social Co-Chair"
+        image: assets/img/team/Anders_headshot.jpg
+        social:
+          - url: mailto:ujx4ab@virginia.edu
+            icon: fas fa-envelope
+          - url: linkedin.com/in/anders-gyllenhoff/
+            icon: fab fa-linkedin
+
+      ### FACULTY #####################################
+      #Probably don't change this
 
       - name: "Robbie Hott"
         role: "Faculty Advisor"
-        image: assets/img/team/hott_robbie.png
+        image: assets/img/team/faculty/hott_robbie.png
         social:
           - url: mailto:jrhott@virginia.edu
             icon: fas fa-envelope
 
       - name: "Nada Basit"
         role: "Omsbudsperson"
-        image: assets/img/team/basit_nada.png
+        image: assets/img/team/faculty/basit_nada.png
         social:
           - url: mailto:basit@virginia.edu
             icon: fas fa-envelope
 
       - name: "David Evans"
         role: "Omsbudsperson"
-        image: assets/img/team/evans_dave.png
+        image: assets/img/team/faculty/evans_dave.png
         social:
           - url: mailto:evans@virginia.edu
             icon: fas fa-envelope
-#################################################
+  #################################################
 
   contact:
     title: "Contact CSGSG"
